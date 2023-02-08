@@ -1,0 +1,207 @@
+/*Resolucion de: Celulares o Tablets*/
+@media screen and (max-width: 780px) {
+    .lista {
+        visibility: hidden;
+    }
+    .lista {
+        display: none;
+    }
+    .subHeader {
+        text-align: center;
+    }
+    .box {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+}
+/*Resolucion de: Desktop o Notebooks*/
+@media screen and (min-width: 780px) {
+    .menu span {
+        visibility: hidden;
+    }
+    .box {
+        margin: 30px;
+    }
+    .menu {
+        display: none;
+    }
+    .mainHeader {
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .subHeader {
+        max-width: 350px;
+        text-align: right;
+    }
+    .list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .leftList {
+        display: flex;
+    }
+    .rightList {
+        display: flex;
+    }
+    .list li {
+        margin: 0 20px;
+    }
+}
+/*menu estatico*/
+@media (min-width: 1200px) {
+    .mainHeader, .list {
+        max-width: 1200px;
+        margin: auto;
+        border: blue solid 5px
+    }
+}
+
+/*Etiquetas especiales*/
+img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+}
+
+header {
+    background-color: #eac926;
+    font-size: larger;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    background-color: #CBCBCB;
+}
+
+main {
+    text-align: center;
+    width: 90%;
+}
+
+article {
+    max-width: 110%;
+    width: 110%;
+    height: 100%;
+    display: block;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+/*Articulos-IconoCamion-Precio-Descuento-Descripcion*/
+.camion {
+    font-size: 25px;
+    color:#48D230;
+    padding: 12px;
+    border-radius: 100%;
+    border: 3px solid #48D230;
+    background: white;
+    width: 25px;
+    height: 25px;
+    
+}
+.precio {
+    display: block;
+    line-height: 0;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.descuento {
+    line-height: 0;
+    font-size: 16px;
+    color: #48D230;
+    padding: 15px;
+}
+
+.descripcion {
+    font-size: 16px;
+    padding: 15px;
+}
+
+.subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+/*otros De MOMENTO*/
+.oferta {
+    font-size: 24px;
+}
+
+.subtitulo {
+    font-size: 16px;
+}
+
+.footerCentrado {
+    text-align: center;
+}
+
+.footerIcon span {
+    display: inline-block;
+    color: blue;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.footerIcon {
+    text-align: center;
+}
+
+.menu span {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #2542E4;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+.menu {
+    font-size: 15px;
+    text-align: center;
+}
+
+.saltoDeLinea {
+    margin: 1em auto
+}
+
+.linea {
+    border-top: 1px solid #ebebeb;
+    border-left: 15px;
+    border-right: 15px;
+    box-sizing: border-box;
+}
+
+.leftList a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.rightList a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.list li {
+    list-style: none;
+}
+
+.list {
+    margin: 0;
+    padding: 12px;
+
+}
+
+/*Footer*/
+/*Header*/
+/*Main*/
