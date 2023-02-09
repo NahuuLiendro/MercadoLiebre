@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000
+const port = process.env.PORT || 3000
 const path = require("path")
 //(npm i nodemon), luego escribir(npx nodemon app ->(escribir nombre de la carpeta))(npm i express)
 app.use(express.static("public"));
