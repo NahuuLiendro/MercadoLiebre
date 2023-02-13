@@ -54,8 +54,6 @@
 @media (min-width: 1200px) {
     .mainHeader, .list {
         max-width: 1200px;
-        margin: auto;
-        border: blue solid 5px
     }
 }
 
